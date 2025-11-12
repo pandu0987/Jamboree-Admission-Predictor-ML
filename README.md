@@ -57,7 +57,7 @@ Instead of removing them, **Ridge Regression reduces coefficient sensitivity**, 
 | Model | R² Score | Interpretation |
 |-------|----------|----------------|
 | Linear Regression | ~0.82 | Strong fit & predictive ability |
-| Ridge Regression | ~0.82 | Same accuracy, more stable coefficients ✅ |
+| Ridge Regression | ~0.82 | Same accuracy, more stable coefficients  |
 
 > **Ridge Regression is selected as the final model.**
 
