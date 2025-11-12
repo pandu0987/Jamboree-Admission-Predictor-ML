@@ -1,4 +1,4 @@
-# ⭐ JAMBOREE ADMISSION PREDICTOR
+# JAMBOREE ADMISSION PREDICTOR
 
 This project predicts the **probability of admission** into graduate programs abroad based on academic scores and student profile attributes. The dataset used is associated with **Jamboree**, a study-abroad consultancy, and was provided as a part of institutional training.
 
@@ -6,7 +6,7 @@ The objective of this project is to identify which factors most strongly influen
 
 ---
 
-## 🎯 Objective
+##  Objective
 To develop a regression-based model that predicts the **Chance of Admit (0–1)** using:
 - Academic Performance (GRE, TOEFL, CGPA)
 - Profile Strength (SOP, LOR)
@@ -15,7 +15,7 @@ To develop a regression-based model that predicts the **Chance of Admit (0–1)*
 
 ---
 
-## 📦 Dataset Description
+##  Dataset Description
 
 | Feature | Description |
 |--------|-------------|
@@ -30,7 +30,7 @@ To develop a regression-based model that predicts the **Chance of Admit (0–1)*
 
 ---
 
-## 📊 Key Insights from EDA
+##  Key Insights from EDA
 
 - **CGPA, GRE, and TOEFL** show the **strongest positive correlation** with admission probability.
 - **SOP, LOR, and University Rating** also contribute positively but have **smaller impact**.
@@ -39,7 +39,7 @@ To develop a regression-based model that predicts the **Chance of Admit (0–1)*
 
 ---
 
-## 🧠 Modeling
+##  Modeling
 
 | Model | Role |
 |-------|------|
@@ -52,7 +52,7 @@ Instead of removing them, **Ridge Regression reduces coefficient sensitivity**, 
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
 | Model | R² Score | Interpretation |
 |-------|----------|----------------|
@@ -63,7 +63,7 @@ Instead of removing them, **Ridge Regression reduces coefficient sensitivity**, 
 
 ---
 
-## 🔑 Feature Influence (Ridge Coefficients)
+##  Feature Influence (Ridge Coefficients)
 
 ```
 CGPA > GRE Score > TOEFL Score > LOR > SOP > University Rating > Research
@@ -74,7 +74,7 @@ Academic strength is the **primary driver**, while profile documents and researc
 
 ---
 
-## 💡 Summary
+##  Summary
 The model explains approximately **82%** of the variation in admission probability. 
 Ridge Regression was selected as the final model because it stabilizes the coefficients 
 while allowing key academic metrics (GRE, TOEFL, CGPA) to remain in the prediction pipeline. 
@@ -82,12 +82,12 @@ This makes the model both **interpretable** and **practically useful** for admis
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, SciPy
 
 ---
 
-## 📎 How to Run
+## How to Run
 ```bash
 pip install -r requirements.txt
 jupyter notebook
