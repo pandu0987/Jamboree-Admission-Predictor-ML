@@ -83,7 +83,7 @@ This makes the model both **interpretable** and **practically useful** for admis
 ---
 
 ##  Tech Stack
-Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, SciPy
+Python, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, SciPy.
 
 ---
 
